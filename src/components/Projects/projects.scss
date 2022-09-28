@@ -1,0 +1,76 @@
+.projects{
+    margin: 1rem;
+    margin-top: 5rem;
+    &__header{
+        span{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            /* identical to box height */
+
+            letter-spacing: 0.3em;
+
+            color: #000000;
+
+        }
+        h3{
+            margin-top: 0;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 39px;
+            /* identical to box height */
+
+
+            color: #000000;
+        }
+    }
+    &__main{
+        &-one{
+            text-align: center;
+            margin-bottom: 2rem;
+           img{
+               width: 95%;
+           } 
+
+           .title{
+               h3{
+                   text-align: left;
+                   font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 29px;
+
+                    color: #000000;
+
+               }
+               p{
+                   text-align: left;
+                   font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+
+                    color: #3D4149;
+               }
+              
+           }
+           .button{
+           
+            text-align: left;
+            button{
+                background: #000000;
+                color: #ffffff;
+                border-radius: 3px;
+                text-align: left;
+                padding: .5rem;
+            }
+        }
+        }
+    }
+}
