@@ -1,0 +1,26 @@
+.hero{
+    margin: 1rem;
+
+    &__one{
+        text-align: center;
+
+        img{
+            width: 90%;
+        }
+    }
+    &__two{
+        .blur{
+            width: 110%;
+            height: 80px;
+            margin-top: -3rem;
+            margin-left: -2rem;
+            background: #F7F7F7;
+            filter: blur(20px);
+        }
+        .parag{
+            margin-top: 0rem;
+            z-index: 2;
+        }
+
+    }
+}
