@@ -1,5 +1,5 @@
 .hero{
-    margin: 1rem;
+    margin: 1.5rem;
 
     &__one{
         text-align: center;
@@ -44,9 +44,11 @@
                 color: #000000;
                 background-color: inherit;
                 border: 0;
-
+                margin-left: -.5rem;
+                margin-right: .5rem;
+                text-align: left;
+                margin-top: .5rem;
             }
         }
-
     }
 }

@@ -18,7 +18,7 @@ const Hero = () => {
 
        <div className='hero__two-msg'>
            <p>I’m a UX Researcher working on topics revolving
-            around ‘Data’ in Artificial Intelligence (AI). My 
+            around Data in Artificial Intelligence (AI). My 
             current research examines the issues of 
             digitization around Low-Resourced Languages.</p>
 

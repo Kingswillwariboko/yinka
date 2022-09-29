@@ -17,7 +17,8 @@ const Projects = () => {
                     </div>
                     <div className='button'>
                         <button>View Case Study</button>
-                    </div>       
+                    </div>     
+                 <hr />  
                 </div>
             )
         })}
