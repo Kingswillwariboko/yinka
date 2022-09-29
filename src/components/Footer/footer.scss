@@ -66,5 +66,29 @@
             margin-right: .5rem;
         }
     }
+    @media (min-width: 768px){
+        display: flex;
+        justify-content: space-between;
+        padding: 4rem;
 
+
+        &__icons{
+            margin-top: 2rem;
+            p{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px;
+    
+                color: #FFFFFF;
+                margin-bottom: .5rem;
+    
+            }
+    
+            img{
+                margin-left: .2rem;
+            }
+        }
+    }
 }

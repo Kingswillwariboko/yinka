@@ -7,19 +7,26 @@ import "./projects.scss"
 const Projects = () => {
     const renderedData = <main className='projects__main'>
         {data.map((dat)=>{
-            const {id, image, title, Description} = dat
+            const {id, image, title, width, Description} = dat
             return(
-                <div key={id} className='projects__main-one'>
-                    <img src={assets} alt=""/>
+                <div>
+                <div key={id} style={{width: width }}  className='projects__main-one'>
+                        <img  src={image} alt=""/>
+                <div>
                     <div className='title'>
-                        <h3> {title} </h3>
-                        <p> {Description} </p>
+                            <h3> {title} </h3>
+                            <p> {Description} </p>
+                        </div>
+                        <div className='button'>
+                            <button>View Case Study</button>
+                        </div>    
                     </div>
-                    <div className='button'>
-                        <button>View Case Study</button>
-                    </div>     
-                 <hr />  
+                
                 </div>
+
+                <hr/>
+                </div>
+                
             )
         })}
     </main>

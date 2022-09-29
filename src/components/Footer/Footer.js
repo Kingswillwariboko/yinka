@@ -30,7 +30,7 @@ const Footer = () => {
             <p>Follow me</p>
 
             <img src={linkedin} alt=""/>
-            <img src={gates} alt=""/>
+            <img className='btn1' src={gates} alt=""/>
         </div>
     </div>
   )

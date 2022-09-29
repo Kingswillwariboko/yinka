@@ -17,6 +17,7 @@
 
     @media (min-width: 768px){
         width: 90%;
+        margin: 3rem;
         .header__nav{
             img{
                 display: none;
@@ -30,6 +31,13 @@
                     text-decoration: none;
                     list-style: none;
                     margin-right: 1rem;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 19px;
+
+                    color: #000000;
                 }
             }
         }

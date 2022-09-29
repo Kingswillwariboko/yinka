@@ -9,10 +9,10 @@ const Hero = () => {
     <div className='hero'>
       <div className='hero__one'>
           <img src={yinka} alt="" />
+          <div className='blur'></div>
       </div>
 
       <div className='hero__two'>
-       <div className='blur'></div>
        <p className='parag'>YINKA AJIBOLA</p>
        <h3>UX RESEARCHER</h3>
 
@@ -22,7 +22,7 @@ const Hero = () => {
             current research examines the issues of 
             digitization around Low-Resourced Languages.</p>
 
-            <button>View Projects</button>
+            <button className='btn'>View Projects</button>
             <button>About Me</button>
        </div>
       </div>
