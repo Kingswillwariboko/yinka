@@ -4,6 +4,14 @@ import message from "../../Assets/Icons/message - mobile.svg"
 
 import "./hero.scss"
 
+function Mailto({ email, subject, body, ...props }) {
+    return (
+      <a href={`mailto:${email}?subject=${subject || ""}&body=${body || ""}`}>
+        {props.children}
+      </a>
+    );
+}
+
 const Hero = () => {
   return (
     <div className='hero'>
@@ -27,9 +35,13 @@ const Hero = () => {
        </div>
       </div>
 
-      <div className='float'>
-          <img src={message} alt="" />
-      </div>
+      <Mailto email="ajibolayinka45@gmail.com" subject="Hello" body="Hello world!">
+                            <button className="float">
+                                 <img src={message} alt="" />
+                            </button>
+        </Mailto>,
+
+    
     </div>
   )
 }

@@ -10,14 +10,14 @@ export const data = [
     {
         id: 2,
         image: "https://user-images.githubusercontent.com/54893238/193073680-3ab78a03-a2c2-44b2-85ff-5e8958768690.png",
-        title: "TIMER FEATURE ON SPOTIFY/USER MAPPING",
-        Description: "The proposed feature allows users to timesongs on a playlist for a specific period (options depending on the length) to serve as a sleep aid for infants/toddlers.",
+        title: "Best Practices for Community Engagement in Smart Cities",
+        Description: "Smart cities are modern innovations intended to improve the quality of life through advanced technologies. However, most of these smart city decisions are made at the top level - often excluding the participatory input of the community. In this project, we wanted to learn how community engagement and inclusiveness are addressed in contemporary smart city initiatives. ",
         background: "#C3E9E3"
     },
     {
         id: 3,
         image: "https://user-images.githubusercontent.com/54893238/193074360-eaf9044a-0124-437b-ac12-4f5d11e83384.png",
-        title: "AWS VOICE ASSISTANT TO AID DISABLED USERS",
+        title: "TIMER FEATURE ON SPOTIFY/USER MAPPING",
         Description: "The project is an Amazon Echo feature that assists an individual with a vision hindranceallowing them to take care of multiple tasks such as adjusting the temperature of the  house, locking the door to the house, and taking care of any other tasks at once in preparation for bed.",
         width: "70%"
     },
