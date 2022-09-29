@@ -16,7 +16,7 @@ export const data = [
     },
     {
         id: 3,
-        image: "https://user-images.githubusercontent.com/54893238/193074658-e97c5efc-8925-4723-a867-8fa83504e083.png",
+        image: "https://user-images.githubusercontent.com/54893238/193074360-eaf9044a-0124-437b-ac12-4f5d11e83384.png",
         title: "AWS VOICE ASSISTANT TO AID DISABLED USERS",
         Description: "The project is an Amazon Echo feature that assists an individual with a vision hindranceallowing them to take care of multiple tasks such as adjusting the temperature of the  house, locking the door to the house, and taking care of any other tasks at once in preparation for bed.",
         width: "70%"
