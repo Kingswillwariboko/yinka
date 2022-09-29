@@ -1,6 +1,6 @@
 import React from 'react'
 import yinka from "../../Assets/images/yinka.svg"
-
+import message from "../../Assets/Icons/message - mobile.svg"
 
 import "./hero.scss"
 
@@ -25,6 +25,10 @@ const Hero = () => {
             <button>View Projects</button>
             <button>About Me</button>
        </div>
+      </div>
+
+      <div className='float'>
+          <img src={message} alt="" />
       </div>
     </div>
   )

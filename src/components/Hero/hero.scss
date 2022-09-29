@@ -1,5 +1,11 @@
 .hero{
     margin: 1.5rem;
+    
+    .float{
+        position: fixed;
+        top: 90%;
+        left: 80%;
+    }
 
     &__one{
         text-align: center;
@@ -19,6 +25,7 @@
         }
         .parag{
             margin-top: 0rem;
+            margin-bottom: .5rem;
             z-index: 2;
         }
 
