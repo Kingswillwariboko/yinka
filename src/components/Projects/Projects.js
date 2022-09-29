@@ -10,7 +10,7 @@ const Projects = () => {
             const {id, image, title, width, Description} = dat
             return(
                 <div>
-                <div key={id} style={{width: width }}  className='projects__main-one'>
+                <div key={id}  className='projects__main-one'>
                         <img  src={image} alt=""/>
                 <div>
                     <div className='title'>
