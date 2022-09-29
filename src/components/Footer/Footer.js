@@ -27,7 +27,7 @@ const Footer = () => {
 
         </div>
         <div className='footer__icons'>
-            <p>follow me</p>
+            <p>Follow me</p>
 
             <img src={linkedin} alt=""/>
             <img src={gates} alt=""/>

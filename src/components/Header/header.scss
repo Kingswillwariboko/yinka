@@ -11,4 +11,27 @@
         font-size: 16px;
         line-height: 19px;
     }
+    ul{
+        display: none;
+    }
+
+    @media (min-width: 768px){
+        width: 90%;
+        .header__nav{
+            img{
+                display: none;
+            }
+
+            ul{
+                display: block;
+                display: flex;
+
+                li{
+                    text-decoration: none;
+                    list-style: none;
+                    margin-right: 1rem;
+                }
+            }
+        }
+    }
 }

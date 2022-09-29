@@ -58,4 +58,13 @@
             }
         }
     }
+
+    @media (min-width: 768px){
+        display: flex;
+        position: relative;
+
+        &__one{
+            float: right;
+        }
+    }
 }

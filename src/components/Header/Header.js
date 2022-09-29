@@ -13,6 +13,13 @@ const Header = () => {
 
         <div className='header__nav'>
             <img src={menu} alt="" />
+
+            <ul>
+                <li>About me</li>
+                <li>Ux projects</li>
+                <li>Resume</li>
+                <li>Contact me</li>
+            </ul>
         </div>
     </div>
   )
