@@ -3,6 +3,7 @@ import yinka from "../../Assets/images/yinka.svg"
 import message from "../../Assets/Icons/message - mobile.svg"
 
 import "./hero.scss"
+import { Link } from 'react-router-dom';
 
 function Mailto({ email, subject, body, ...props }) {
     return (
@@ -31,7 +32,7 @@ const Hero = () => {
             digitization around Low-Resourced Languages.</p>
 
             <button className='btn'>View Projects</button>
-            <button>About Me</button>
+            <button><Link to="/about">About Me</Link></button>
        </div>
       </div>
 

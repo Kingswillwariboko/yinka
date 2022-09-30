@@ -1,16 +1,31 @@
 import './App.scss';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
-import Projects from './components/Projects/Projects';
+import {
+  BrowserRouter as Router,
+  Route,
+  Redirect,
+  Switch
+} from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About/About';
+
+
 
 const App = () => {
   return (
     <div>
-      <Header />
-      <Hero />
-      <Projects />
-      <Footer />
+      <Router>
+      <main>
+        <Switch>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/about" exact>
+            <About />
+          </Route>
+          <Redirect to="/" />
+        </Switch>
+      </main>
+    </Router>
     </div>
   );
 }

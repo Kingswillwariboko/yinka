@@ -1,6 +1,12 @@
 .projects{
     margin: 1.5rem;
     margin-top: 5rem;
+
+    a{
+        color: #ffffff;
+        text-decoration: none;
+        cursor: pointer;
+    }
     &__header{
         span{
             font-family: 'Inter';

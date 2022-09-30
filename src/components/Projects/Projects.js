@@ -3,11 +3,12 @@ import { data } from '../../Data'
 import assets from "../../Assets/images/asset.svg"
 
 import "./projects.scss"
+import { Link } from 'react-router-dom'
 
 const Projects = () => {
     const renderedData = <main className='projects__main'>
         {data.map((dat)=>{
-            const {id, image, title, width, Description} = dat
+            const {id, image, link, title, width, Description} = dat
             return(
                 <div>
                 <div key={id}  className='projects__main-one'>
@@ -18,7 +19,7 @@ const Projects = () => {
                             <p> {Description} </p>
                         </div>
                         <div className='button'>
-                            <button>View Case Study</button>
+                            <button><Link  to={{ pathname: `${link}` }} target="_blank" >View Case Study </Link></button>
                         </div>    
                     </div>
                 

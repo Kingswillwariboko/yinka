@@ -5,6 +5,7 @@ import linkedin from "../../Assets/Icons/linkedin.svg"
 import gates from "../../Assets/Icons/gate.svg"
 
 import "./footer.scss"
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -29,7 +30,7 @@ const Footer = () => {
         <div className='footer__icons'>
             <p>Follow me</p>
 
-            <img src={linkedin} alt=""/>
+            <Link to={{ pathname: "https://www.linkedin.com/in/yinkaaji/" }} target="_blank" ><img src={linkedin} alt=""/></Link>
             <img className='btn1' src={gates} alt=""/>
         </div>
     </div>
