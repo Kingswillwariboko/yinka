@@ -23,13 +23,12 @@ const Hero = () => {
 
       <div className='hero__two'>
        <p className='parag'>YINKA AJIBOLA</p>
-       <h3>UX RESEARCHER</h3>
+       <h3>PhD student</h3>
 
        <div className='hero__two-msg'>
-           <p>I’m a UX Researcher working on topics revolving
-            around Data in Artificial Intelligence (AI). My 
-            current research examines the issues of 
-            digitization around Low-Resourced Languages.</p>
+           <p>I am a PhD student in Information Studies at the University of Wisconsin- Madison. I am working on topics revolving around Data in Artificial Intelligence. My current work examines the issues of digitization
+                around Low-Resourced Languages. In addition,
+                 I also explore UX methodologies in my research.</p>
 
             <button className='btn'>View Projects</button>
             <button><Link to="/about">About Me</Link></button>
