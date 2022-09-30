@@ -30,7 +30,7 @@ const Hero = () => {
                 around Low-Resourced Languages. In addition,
                  I also explore UX methodologies in my research.</p>
 
-            <button className='btn'>View Projects</button>
+            <button className='btn'>Resume</button>
             <button><Link to="/about">About Me</Link></button>
        </div>
       </div>
@@ -39,7 +39,7 @@ const Hero = () => {
                             <button className="float">
                                  <img src={message} alt="" />
                             </button>
-        </Mailto>,
+        </Mailto>
 
     
     </div>

@@ -18,11 +18,11 @@ const About = () => {
       <div className='about__one'>
           <h3>ABOUT ME</h3>
 
-        <p>I am a Ph.D. student at the Information School (iSchool) at the University of Wisconsin- Madison. Prior to this, I obtained my master's in Political Science (M.A) and Information Communication Sciences (M.Sc).
+        <p>I am a Ph.D. student at the Information School (iSchool) at the University of Wisconsin- Madison. Prior to this, I obtained my master's in Political Science (M.A) and Information Communication Sciences (M.Sc). </p>
 
-            Currently, I am working on topics revolving around 'Data' in Artificial Intelligence (AI). My current research examines the issues of digitization around Low-Resourced Languages. This involves the issue surrounding data collection/acquisition for advanced computer processing. Specifically, I am looking at the dynamics of relevant 'Data' for Machine Translation of low-resourced languages ~ African languages. I hope to carry out field research in relation to data acquisition in developing nations.
+          <p>Currently, I am working on topics revolving around 'Data' in Artificial Intelligence (AI). My current research examines the issues of digitization around Low-Resourced Languages. This involves the issue surrounding data collection/acquisition for advanced computer processing. Specifically, I am looking at the dynamics of relevant 'Data' for Machine Translation of low-resourced languages ~ African languages. I hope to carry out field research in relation to data acquisition in developing nations.</p> 
 
-            I am always happy to talk about research, sports (especially soccer), or fieldwork. Whether looking for a research collaborator or a conversation, do not hesitate to email me and/or follow me on social media.
+           <p> I am always happy to talk about research, sports (especially soccer), or fieldwork. Whether looking for a research collaborator or a conversation, do not hesitate to email me and/or follow me on social media.
         </p>
       </div>
 
