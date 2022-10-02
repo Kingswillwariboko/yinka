@@ -26,6 +26,8 @@ const About = () => {
         </p>
       </div>
 
+      
+
       <div className='about__two'>
 
           <div className='about__two-msg'>
@@ -43,6 +45,34 @@ const About = () => {
       </div>
 
       <div className='about__three'>
+
+      <div className='edu'>
+              <h3>Academic Projects</h3>
+              <p>Paper in Modern voting systems: Paper Voting vs E-voting</p>
+
+            <p>Social media influence on corruption in developing countries</p>
+
+            <p>Presidential Approval Rating on Mid-term election</p>
+
+            <p>Dynamic Terrorist Strategy </p>
+
+            <p>The Green Parties in United Kingdom</p>
+
+          </div>
+
+          <div className='edu'>
+              <h3>Presentations</h3>
+              <div>
+                <h4>First Talk:  LOC World Conference </h4>
+                <p>Title: The African Languages Lab: Exploring the African Languages Landscape and Technologies</p>
+              </div>
+
+              <div>
+                <h4>The Second Talk: Artificial Intelligence (AI) + Society mini-talks</h4>
+                <p>Title:  What moral stance does GPT-3 take when discussing contemporary issues?</p>
+              </div>
+
+          </div>
           <div className='ux'>
               <h3>UX Skills</h3>
               <p>User Interview, Survey, User Persona, Competitive Analysis, Literature Review, Diary Studies.</p>
