@@ -59,7 +59,7 @@ const About = () => {
             <p>The Green Parties in United Kingdom</p>
 
           </div>
-
+       <hr/>
           <div className='edu'>
               <h3>Presentations</h3>
               <div>
@@ -73,12 +73,15 @@ const About = () => {
               </div>
 
           </div>
+        <hr/>
           <div className='ux'>
               <h3>UX Skills</h3>
               <p>User Interview, Survey, User Persona, Competitive Analysis, Literature Review, Diary Studies.</p>
              <p>Tools</p>
             <p> Qualtrics, MS Suites, SPSS, R, Google Sheet</p>
           </div>
+
+          <hr/>
 
           <div className='edu'>
               <h3>Education</h3>
@@ -91,6 +94,7 @@ const About = () => {
             <p>Ph.D - Information Science -  Madison Wisconsin, expected graduation (expected graduation 2025)</p>
 
           </div>
+         
       </div>
     </div>
 
