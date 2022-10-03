@@ -8,6 +8,7 @@ import scrum from "../../Assets/images/scrum.svg"
 
 
 import "./about.scss"
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -48,27 +49,27 @@ const About = () => {
 
       <div className='edu'>
               <h3>Academic Projects</h3>
-              <p>Paper in Modern voting systems: Paper Voting vs E-voting</p>
+              <Link to={{ pathname: "https://www.researchgate.net/publication/364087926_E-voting_vs_Traditional_Paper-based_voting_system" }} target="_blank" > <p>Paper in Modern voting systems: Paper Voting vs E-voting</p> </Link>
 
-            <p>Social media influence on corruption in developing countries</p>
+              <Link to={{ pathname: "https://www.linkedin.com/in/yinkaaji/" }} target="_blank"> <p>Social media influence on corruption in developing countries</p> </Link>
 
-            <p>Presidential Approval Rating on Mid-term election</p>
+              <Link to={{ pathname: "https://www.researchgate.net/publication/333633336_Presidential_Approval_Rating_on_Midterm_Election" }} target="_blank"><p>Presidential Approval Rating on Mid-term election</p> </Link>
 
-            <p>Dynamic Terrorist Strategy </p>
+              <Link to={{ pathname: "https://www.researchgate.net/publication/337682685_DYNAMIC_TERRORIST_STRATEGY_A_CASE_STUDY_OF_ISIS_IN_SYRIA_AND_BOKO_HARAM_IN_NIGERIA" }} target="_blank"> <p>Dynamic Terrorist Strategy </p> </Link>
 
-            <p>The Green Parties in United Kingdom</p>
+              <Link to={{ pathname: "https://www.researchgate.net/publication/333878647_THE_GREEN_PARTIES_IN_THE_UNITED_KINGDOM" }} target="_blank"> <p>The Green Parties in United Kingdom</p> </Link>
 
           </div>
        <hr/>
           <div className='edu'>
               <h3>Presentations</h3>
               <div>
-                <h4>First Talk:  LOC World Conference </h4>
-                <p>Title: The African Languages Lab: Exploring the African Languages Landscape and Technologies</p>
+                <h4>LOC World Conference </h4>
+                <Link to={{ pathname: "https://locworld.com/sessions/the-african-languages-lab-exploring-the-african-languages-landscape-and-technologies/" }} target="_blank">   <p>Title: The African Languages Lab: Exploring the African Languages Landscape and Technologies</p> </Link>
               </div>
 
               <div>
-                <h4>The Second Talk: Artificial Intelligence (AI) + Society mini-talks</h4>
+                <h4>Artificial Intelligence (AI) + Society mini-talks</h4>
                 <p>Title:  What moral stance does GPT-3 take when discussing contemporary issues?</p>
               </div>
 
@@ -91,7 +92,7 @@ const About = () => {
 
             <p>Masters of Science:  Information Communication Science, Indiana -  2021</p>
 
-            <p>Ph.D - Information Science -  Madison Wisconsin, expected graduation (expected graduation 2025)</p>
+            <p>Ph.D - Information Science -  Madison Wisconsin (expected graduation 2025)</p>
 
           </div>
          

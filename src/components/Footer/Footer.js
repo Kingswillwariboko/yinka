@@ -31,7 +31,7 @@ const Footer = () => {
             <p>Follow me</p>
 
             <Link to={{ pathname: "https://www.linkedin.com/in/yinkaaji/" }} target="_blank" ><img src={linkedin} alt=""/></Link>
-            <img className='btn1' src={gates} alt=""/>
+            <Link to={{ pathname: "https://www.researchgate.net/profile/Olayinka-Ajibola-2" }}> <img className='btn1' src={gates} alt=""/> </Link>
         </div>
     </div>
   )
