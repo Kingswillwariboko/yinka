@@ -6,7 +6,7 @@ export const data = [
         title: "MUNCIE SMART CITY PROJECT",
         Description: "The project was proposed to transform thecity of Muncie into a smart city to encourage open communication between the different aspects of the community bydeveloping a Smart Digital Town Hall that is composed of an application, an organization, and interactive kiosks.",
         background: "#C3E9E3",
-        link: "https://drive.google.com/drive/u/1/folders/1vmPqmSk1NdssjgPDupSO9CyTtRnvm12j"
+        link: "https://yinkaajibola.medium.com/ux-project-smart-city-muncie-460d67fa50b9"
 
     },
     {
@@ -15,7 +15,8 @@ export const data = [
         title: "Best Practices for Community Engagement in Smart Cities",
         Description: "Smart cities are modern innovations intended to improve the quality of life through advanced technologies. However, most of these smart city decisions are made at the top level - often excluding the participatory input of the community. In this project, we wanted to learn how community engagement and inclusiveness are addressed in contemporary smart city initiatives. ",
         background: "#C3E9E3",
-        link: "https://ieeexplore.ieee.org/document/9778151"
+        link: "https://yinkaajibola.medium.com/ux-project-best-practices-for-community-engagement-in-smart-cities-84541e27607"
+        
     },
     {
         id: 3,

@@ -28,7 +28,8 @@ const Hero = () => {
        <div className='hero__two-msg'>
            <p>I am a PhD student in Information Studies at the University of Wisconsin- Madison. I am working on topics revolving around Data in Artificial Intelligence. My current work examines the issues of digitization
                 around Low-Resourced Languages. In addition,
-                 I also explore UX methodologies in my research.</p>
+                 I also explore UX methodologies in my research.
+                 Research Interests:  Information Communication Technology & Development (ICTD), Artificial Intelligence for Development (AI4D), Smart Cities, E- Government.</p>
 
             <button className='btn'>Resume</button>
             <button><Link to="/about">About Me</Link></button>
