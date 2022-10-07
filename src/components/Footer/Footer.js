@@ -22,8 +22,7 @@ const Footer = () => {
             </div>
 
             <div className='mail'>
-               <img src={phone} alt=""/>
-                <p>502-510-7186</p>
+              
             </div>
 
         </div>
