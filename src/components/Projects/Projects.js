@@ -11,10 +11,10 @@ const Projects = () => {
             const {id, image, link, title, width, Description} = dat
             return(
                 <div>
-                <div key={id}  className='projects__main-one'>
-                        <img  src={image} alt=""/>
+                <div key={id} className='projects__main-one'>
+                        <img style={{width: width}} src={image} alt=""/>
                 <div>
-                    <div className='title'>
+                    <div  className='title'>
                             <h3> {title} </h3>
                             <p> {Description} </p>
                         </div>

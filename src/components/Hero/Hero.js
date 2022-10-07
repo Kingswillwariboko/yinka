@@ -1,6 +1,7 @@
 import React from 'react'
 import yinka from "../../Assets/images/yinka.svg"
 import message from "../../Assets/Icons/message - mobile.svg"
+import pdf from "../../Assets/resume.pdf"
 
 import "./hero.scss"
 import { Link } from 'react-router-dom';
@@ -28,10 +29,11 @@ const Hero = () => {
        <div className='hero__two-msg'>
            <p>I am a PhD student in Information Studies at the University of Wisconsin- Madison. I am working on topics revolving around Data in Artificial Intelligence. My current work examines the issues of digitization
                 around Low-Resourced Languages. In addition,
-                 I also explore UX methodologies in my research.
-                 Research Interests:  Information Communication Technology & Development (ICTD), Artificial Intelligence for Development (AI4D), Smart Cities, E- Government.</p>
+                 I also explore UX methodologies in my research. </p>
+ 
+              <p>  Research Interests:  Information Communication Technology & Development (ICTD), Artificial Intelligence for Development (AI4D), Smart Cities, E- Government.</p>
 
-            <button className='btn'>Resume</button>
+            <button className='btn'><a href={pdf}> Resume </a></button>
             <button><Link to="/about">About Me</Link></button>
        </div>
       </div>
