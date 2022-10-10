@@ -1,7 +1,7 @@
 import React from 'react'
 import yinka from "../../Assets/images/yinka.svg"
 import message from "../../Assets/Icons/message - mobile.svg"
-import pdf from "../../Assets/resume.pdf"
+import pdf from "../../Assets/resumee.pdf"
 
 import "./hero.scss"
 import { Link } from 'react-router-dom';

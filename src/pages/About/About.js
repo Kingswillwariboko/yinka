@@ -5,7 +5,7 @@ import cisco from "../../Assets/images/cisco.svg"
 import aws from "../../Assets/images/aws.svg"
 import pm from "../../Assets/images/PM.svg"
 import scrum from "../../Assets/images/scrum.svg"
-
+import pmp from "../../Assets/images/pmp.svg"
 
 import "./about.scss"
 import { Link } from 'react-router-dom'
@@ -40,7 +40,8 @@ const About = () => {
                 <img src={cisco} alt=""/>
                 <img src={scrum} alt=""/>
                 <img src={pm} alt=""/>
-                <img src={aws} alt=""/>
+                <img src={aws} alt=""/> 
+                <img src={pmp} alt=""/>
           </div>
             
       </div>
